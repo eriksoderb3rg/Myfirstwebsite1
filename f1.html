@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>MyFirstWebsite</title>
 </head>
 
 <body>
-    <ul>
+    <ul class="navigation">
         <li><a href="index.html">Home</a></li>
         <li><a href="f1.html">Datakommunikation och webbadresser</a></li>
         <li><a href="f2.html">HTML</a></li>
@@ -16,7 +17,7 @@
 
     <h1>Datakommunikation och Webbadresser</h1>
 
-    <img src="/img/pic1.png" width="600" height="450">
+    <img src="/img/pic1.png" width="1000" height="300">
 
 
     <p class="questions"> 1. Vilken roll spelar DNS servern när en användare navigerar till en webbsida?</p>
@@ -24,10 +25,12 @@
     <p>DNS servern matchar domännamn med motsvarande IP-adresser. DNS servrar gör att upplevelsen på webben blir
         mer användarvänlig då vi istället för sifferkoder får faktiska namn på webbplatser. </p>
 
-    <p class="questions"> 2. Beskriv kortfattat de steg som klienten och servern tillsammans går igenom när en webbsida
+    <p class="questions"> 2. Beskriv kortfattat de steg som klienten och servern tillsammans går igenom när en
+        webbsida
         bestående av
         filerna index.html, style.css och example.jpg öppnas.</p>
-    <p> När en webbsida öppnas göra båda servern och webbsidan en rad olika steg tills hemsidan och dess innehåll visas.
+    <p> När en webbsida öppnas göra båda servern och webbsidan en rad olika steg tills hemsidan och dess innehåll
+        visas.
         Klienten (webbläsaren) gör begäran till servern - servern mottar begäran och svarar med "index.html"- filen.
         - Klienten renderar indexfilen och hittar resterande filar som CSS- och IMG filer där vardera fil hämtas och
         renderas
