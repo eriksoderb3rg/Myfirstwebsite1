@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-
+/* Apply box-sizing globally */
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
-    width: 100%; 
-    max-width: 1500px; 
+    width: 100%; /* Changed from fixed width to 100% */
+    max-width: 1500px; /* Set a max-width to ensure content doesn’t exceed */
     margin: 0 auto;
     background-color: rgb(189, 199, 209);
-    padding: 0; 
+    padding: 0; /* Reset padding */
 }
 
 h1 {
     font-size: 50px;
-    text-align: center; 
+    text-align: center; /* Centered heading text */
 }
 
 p.questions {
