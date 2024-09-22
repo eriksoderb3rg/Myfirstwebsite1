@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
-/* Apply box-sizing globally */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
-    width: 100%; /* Changed from fixed width to 100% */
-    max-width: 1500px; /* Set a max-width to ensure content doesn’t exceed */
+    width: 100%; 
+    max-width: 1500px; 
     margin: 0 auto;
     background-color: rgb(189, 199, 209);
-    padding: 0; /* Reset padding */
+    padding: 0; 
 }
 
-p.questions {
+h2.questions {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
@@ -33,30 +33,30 @@ img {
 ul.navigation {
     list-style-type: none;
     padding: 0;
-    margin: 20px auto; /* Center the navigation box horizontally */
-    background-color: rgb(189, 199, 209); /* Background color for the box */
-    border-radius: 8px; /* Rounded corners */
-    padding: 10px; /* Padding inside the box */
-    width: fit-content; /* Adjust width to fit the content */
-    text-align: center; /* Center the navigation links */
+    margin: 20px auto; 
+    background-color: rgb(189, 199, 209); 
+    border-radius: 8px; 
+    padding: 10px; 
+    width: fit-content; 
+    text-align: center; 
 }
 
 ul.navigation li {
-    display: inline-block; /* Make list items inline */
-    margin: 0; /* Remove default margin */
+    display: inline-block; 
+    margin: 0; 
 }
 
 ul.navigation a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: black; /* Text color inside the box */
+    color: black; 
     font-size: 20px;
-    border-bottom: 1px solid #0b0b0b; /* Border between items */
+    border-bottom: 1px solid #0b0b0b; 
 }
 
 ul.navigation a:hover {
-    background-color: #3f6185; /* Change background on hover */
+    background-color: #3f6185; 
 }
 
 #pic1, #pic2, #pic3 {
@@ -67,17 +67,17 @@ ul.navigation a:hover {
 }
 
 .styled-image {
-    border-radius: 15px; /* Rundade hörn */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Skugga */
-    display: block; /* Gör bilden till blockelement */
-    margin-left: auto; /* Centrera bilden */
-    margin-right: auto; /* Centrera bilden */
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 #main-title {
-        font-size: 80px;               /* Font size */
-        text-align: center;           /* Center alignment */
-        color: #2c3e50;               /* Dark color for the text */
-        padding: 20px;                /* Padding around the text */
+        font-size: 80px;               
+        text-align: center;           
+        color: #2c3e50;              
+        padding: 20px;              
         
 }
