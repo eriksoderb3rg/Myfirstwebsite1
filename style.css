@@ -13,6 +13,8 @@ body {
     padding: 0; /* Reset padding */
 }
 
+
+
 h1 {
     font-size: 50px;
     text-align: center; /* Centered heading text */
@@ -26,10 +28,6 @@ p.questions {
 
 p {
     font-size: 25px;
-    text-align: center;
-}
-
-header {
     text-align: center;
 }
 
@@ -66,4 +64,11 @@ ul.navigation a {
 
 ul.navigation a:hover {
     background-color: #3f6185; /* Change background on hover */
+}
+
+#pic1, #pic2, #pic3 {
+    width: 1000px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
