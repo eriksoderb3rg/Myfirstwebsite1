@@ -14,42 +14,31 @@
         <li><a href="f3.html">CSS</a></li>
     </ul>
 
-    <h1>Datakommunikation och Webbadresser</h1>
+    <h1 id="main-title">Datakomunikation och webbadresser</h1>
 
-    <img id="pic1" src="/img/pic1.png" width="1000" height="250" alt="Smooth edges image">
+    <img class="styled-image" src="/img/pic1.jpg" width="1000" height="250" alt="Smooth edges image">
 
-
-    <p class="questions"> 1. Vilken roll spelar DNS servern när en användare navigerar till en webbsida?</p>
-
+    <h2 class="questions">Vilken roll spelar DNS servern när en användare navigerar till en webbsida?</h2>
     <p>DNS servern matchar domännamn med motsvarande IP-adresser. DNS servrar gör att upplevelsen på webben blir
-        mer användarvänlig då vi istället för sifferkoder får faktiska namn på webbplatser. </p>
+        mer användarvänlig då vi istället för sifferkoder får faktiska namn på webbplatser.</p>
+    <h2 class="questions">Beskriv kortfattat de steg som klienten och servern tillsammans går igenom när en
+        webbsida bestående av filerna index.html, style.css och example.jpg öppnas.</h2>
 
-    <p class="questions"> 2. Beskriv kortfattat de steg som klienten och servern tillsammans går igenom när en
-        webbsida
-        bestående av
-        filerna index.html, style.css och example.jpg öppnas.</p>
+    <p>När en webbsida öppnas gör både servern och webbläsaren en rad olika steg tills hemsidan och dess innehåll
+        visas. Klienten (webbläsaren) gör begäran till servern - servern mottar begäran och svarar med "index.html"
+        -filen. Klienten renderar indexfilen och hittar resterande filer som CSS- och IMG-filer, där varje fil hämtas
+        och renderas av klienten och servern.</p>
 
-    <p> När en webbsida öppnas göra båda servern och webbsidan en rad olika steg tills hemsidan och dess innehåll
-        visas.
-        Klienten (webbläsaren) gör begäran till servern - servern mottar begäran och svarar med "index.html"- filen.
-        - Klienten renderar indexfilen och hittar resterande filar som CSS- och IMG filer där vardera fil hämtas och
-        renderas
-        av klienten och servern
-    </p>
-
-
-    <p class="questions"> 3. Beskriv de delar som följande url består av:
+    <h2 class="questions">Beskriv de delar som följande url består av:
         https://medieteknik.lnu.se:443/wt1/index.html#intro
-        Ta upp alla delar som åtskiljs av /, : och # </p>
+        Ta upp alla delar som åtskiljs av /, : och #</h2>
     <p>
-
         https://" är ett typ av protokoll som innebär att kommunikationen är krypterad.
         "medieteknik.lnu.se" är det domännamn som servern är värd för.
-        :443" är den port som ska användas för kommunikation.
+        ":443" är den port som ska användas för kommunikation.
         "/wt1/index.html" är en typ av sökväg som pekar på en specifik fil för att rendera hemsidan.
         "#intro" är en specifik del av HTML-filen/sidan.
     </p>
-
 
 </body>
 
