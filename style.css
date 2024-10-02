@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -28,6 +27,10 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
+    width: 1000px;
+    height: 250px;
 }
 
 ul.navigation {
@@ -59,53 +62,6 @@ ul.navigation a:hover {
     background-color: #3f6185; 
 }
 
-#pic1, #pic2, #pic3 {
-    width: 1000px;
-    height: 250px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.styled-image {
-    border-radius: 15px; 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-}
-
-#main-title {
-        font-size: 80px;               
-        text-align: center;           
-        color: #2c3e50;              
-        padding: 20px;              
-        
-}
-
-
-.image-container {
-    position: relative;
-    width: 1000px; 
-    height: 250px; 
-    margin: 0 auto; 
-    border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    background-size: cover; 
-    background-position: center; 
-}
-
-#image1 {
-    background-image: url('/img/pic1.jpg');
-}
-
-#image2 {
-    background-image: url('/img/pic2.jpg');
-}
-
-#image3 {
-    background-image: url('/img/pic3.jpg');
-}
-
 #main-title {
     position: absolute; 
     bottom: 10px; 
@@ -114,6 +70,12 @@ ul.navigation a:hover {
     font-size: 50px;               
     text-align: center;           
     color: #fff; 
-    padding: 20px;              
+    padding: 40px;              
     background-color: rgba(44, 62, 80, 0.6); 
+}
+.image-container {
+    position: relative;
+    width: 1000px; 
+    height: 250px; 
+    margin: 0 auto; 
 }
